@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Particles/jump.tres" type="Material" id=1]
+[ext_resource path="res://src/scripts/ParticleSystem.gd" type="Script" id=2]
+
+[node name="ParticleSystem" type="Particles2D"]
+modulate = Color( 1, 1, 1, 0.356863 )
+emitting = false
+lifetime = 2.0
+one_shot = true
+speed_scale = 2.0
+explosiveness = 1.0
+local_coords = false
+process_material = ExtResource( 1 )
+script = ExtResource( 2 )

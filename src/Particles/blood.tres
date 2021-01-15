@@ -1,0 +1,24 @@
+[gd_resource type="ParticlesMaterial" format=2]
+
+[resource]
+flag_disable_z = true
+direction = Vector3( 1, 1, 0 )
+spread = 180.0
+gravity = Vector3( 0, 98, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+angular_velocity = 720.0
+angular_velocity_random = 1.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 59.14
+linear_accel_random = 1.0
+radial_accel = 58.07
+radial_accel_random = 1.0
+tangential_accel = 36.56
+tangential_accel_random = 1.0
+scale = 20.0
+scale_random = 0.5
+color = Color( 0.4, 0, 0, 1 )
+hue_variation = 0.04
+hue_variation_random = 1.0
